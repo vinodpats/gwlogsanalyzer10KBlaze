@@ -5,7 +5,6 @@
 package com.pats;
 
 import java.io.BufferedReader;
-
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.IOException;
@@ -20,7 +19,6 @@ import java.util.Scanner;
 public class GWLogAnalyzer {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("** This utility has been developed by Pats Corporation (Vinod Patil). ** \n\n Use it with caution to generate secinfo and reginfo files \n\n");
 		
 		Scanner scan = new Scanner(System.in);
@@ -34,7 +32,6 @@ public class GWLogAnalyzer {
 		Charset charset = Charset.forName("UTF-8");
 
 		
-
 		try {
 			File folder = new File(filePath);
 			File[] listOfFiles = folder.listFiles();

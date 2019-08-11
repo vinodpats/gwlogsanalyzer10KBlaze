@@ -118,12 +118,10 @@ public class GWLogAnalyzer {
 			writer.newLine();
 			writer.write("P USER=* USER-HOST=internal,local HOST=internal,local TP=*");
 			
-			
 			writer.flush();
 			writer.close();
 			System.out.println("secinfo generated successfully");
 			scan.close();
-			
 			
 			
 		} catch (IOException x) {

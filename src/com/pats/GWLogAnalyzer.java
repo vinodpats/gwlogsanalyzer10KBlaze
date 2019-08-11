@@ -1,5 +1,5 @@
 //Author: Pats Corporation (Vinod Patil)
-//Date: 1 July 2019
+//Date:  July 2019
 //License: GNU General Public License v3.0
 
 package com.pats;
@@ -118,12 +118,10 @@ public class GWLogAnalyzer {
 			writer.newLine();
 			writer.write("P USER=* USER-HOST=internal,local HOST=internal,local TP=*");
 			
-			
 			writer.flush();
 			writer.close();
 			System.out.println("secinfo generated successfully");
 			scan.close();
-			
 			
 			
 		} catch (IOException x) {
